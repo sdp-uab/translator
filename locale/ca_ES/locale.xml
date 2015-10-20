@@ -16,28 +16,18 @@
 <locale name="ca_ES" full_name="Català">
 	<message key="plugins.generic.translator.name">Mòdul de traducció</message>
 	<message key="plugins.generic.translator.description">Aquest mòdul permet el manteniment web dels fitxers de traducció.</message>
-	<message key="plugins.generic.translator.longdescription">This area allows the Site Administrator to build, modify and check translations of OMP. This is site-wide and should not be used to customize a single OMP press. If you correct or create a translation, please consider submitting it to the Public Knowledge Project for distribution with future releases.</message>
-	<message key="plugins.generic.translator.localeDescription">This page lists all components of an OMP translation and provides the translator with the opportunity to edit each. A full translation of a translation should contain complete translations of all components.</message>
-	<message key="plugins.generic.translator.localeFileDescription">The following list contains all conventional locale files. These map language-specific text onto language-independent locale keys.</message>
-	<message key="plugins.generic.translator.localeFileContents">Locale File Contents</message>
-	<message key="plugins.generic.translator.localeFileContentsDescription">The selected locale file contains the following locale keys. Each locale key associates a language-independent &quot;key&quot; (which looks.like.this) with a piece of language-specific text.</message>
 
 	<message key="plugins.generic.translator.localeName">Nom de la configuració regional</message>
 	<message key="plugins.generic.translator.localeKey">Clau</message>
 	<message key="plugins.generic.translator.localeKey.description">Introduïu una clau regional sencera que vulgueu buscar.</message>
 	<message key="plugins.generic.translator.localeKeyValue">Valor</message>
 	<message key="plugins.generic.translator.translate">Tradueix</message>
-	<message key="plugins.generic.translator.availableLocales">Configuracions regionals disponibles</message>
+	<message key="plugins.generic.translator.availableLocales">Traduccions disponibles</message>
 	<message key="plugins.generic.translator.check">Comprova</message>
-	<message key="grid.action.checkLocale">Check Locale</message>
+	<message key="grid.action.checkLocale">Comprova traducció</message>
 	<message key="grid.action.download">Baixa</message>
-	<message key="plugins.generic.translator.localeFile.complete">Complete ({$reference})</message>
-	<message key="plugins.generic.translator.localeFile.incompleteCount">{$complete} / {$reference} ({$percent}%)</message>
-	<message key="plugins.generic.translator.localeFile.doesNotExist">Missing ({$reference})</message>
 	<message key="plugins.generic.translator.miscFile.complete">Completa</message>
-	<message key="plugins.generic.translator.miscFile.doesNotExist">Missing</message>
 	<message key="plugins.generic.translator.email.complete">Completa</message>
-	<message key="plugins.generic.translator.email.doesNotExist">Missing</message>
 
 	<message key="plugins.generic.translator.errors">Errors de la configuració regional</message>
 
@@ -49,23 +39,11 @@
 	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.title">Missatges de correu electrònic extra</message>
 	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.title">Llistes de paràmetres de correu electrònic diferents</message>
 
-	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.message">The key &quot;{$key}&quot; is missing from &quot;{$filename}&quot;. The English version has been provided as a default.</message>
-	<message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.message">The key &quot;{$key}&quot; is no longer used and can be removed from &quot;{$filename}&quot;.</message>
-	<message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.message">The locale key &quot;{$key}&quot; in &quot;{$filename}&quot; differs from the reference locale in its use of parameters. Please double-check that it contains all relevant parameters. The mismatching parameter(s) are:</message>
-	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.message">The locale file &quot;{$filename}&quot; is missing or unreadable.</message>
-	<message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.message">The email message &quot;{$key}&quot; is missing from the translation.</message>
-	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.message">The email message &quot;{$key}&quot; is no longer used and can be removed.</message>
-	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.message">The email message &quot;{$key}&quot; differs from the reference locale in its use of parameters. Please double-check that it contains all relevant parameters. The mismatching parameter(s) are:</message>
-	<message key="plugins.generic.translator.jumpTo">Jump To...</message>
-	<message key="plugins.generic.translator.locale">{$locale} Locale</message>
+	<message key="plugins.generic.translator.locale">Configuració regional {$locale}</message>
 	<message key="plugins.generic.translator.localeFiles">Fitxers de configuració regional</message>
 	<message key="plugins.generic.translator.miscFiles">Fitxers diversos</message>
-	<message key="plugins.generic.translator.miscFileDescription">The following list contains all miscellaneous locale files. These are typically XML files but do not follow the standard key-value format used by most translated content.</message>
-	<message key="plugins.generic.translator.emails">Plantilles de missatges de correu electrònic</message>
-	<message key="plugins.generic.translator.emailDescription">The following list contains all email templates used by the system.</message>
+	<message key="plugins.generic.translator.emails">Plantilles de correu electrònic</message>
 	<message key="plugins.generic.translator.file.filename">Nom del fitxer</message>
-	<message key="plugins.generic.translator.file.edit">Editing {$filename}</message>
-	<message key="plugins.generic.translator.email.edit">Editing {$emailKey}</message>
 	<message key="plugins.generic.translator.file.reference">Versió de referència</message>
 	<message key="plugins.generic.translator.file.translation">Traducció</message>
 	<message key="plugins.generic.translator.email.reference">Versió de referència</message>
@@ -77,12 +55,7 @@
 	<message key="plugins.generic.translator.file.resetConfirm">Esteu segur que voleu reinicialitzar els continguts del fitxer?</message>
 	<message key="plugins.generic.translator.email.resetConfirm">Esteu segur que voleu reinicialitzar els continguts del correu electrònic?</message>
 	<message key="plugins.generic.translator.file.doesNotExistNote">* Aquest fitxer encara no s’ha traduït.</message>
-	<message key="plugins.generic.translator.file.confirmCreate">The file &quot;{$filename}&quot; will be created using the English version; you will need to translate all strings in the file. Do you wish to continue?</message>
-	<message key="plugins.generic.translator.email.description">In the following fields, translate the email template&apos;s Title, Body, and Description. The Description is for the Press Manager&apos;s reference only.</message>
 	<message key="plugins.generic.translator.confirmDelete">Esteu segur/a que voleu eliminar aquest element? Aquesta acció no es pot desfer.</message>
 	<message key="plugins.generic.translator.deleteKey">Suprimeix aquesta clau</message>
 	<message key="plugins.generic.translator.deleteEmail">Suprimeix aquest correu electrònic</message>
-	<message key="plugins.generic.translator.saveBeforeContinuing">Be sure to save any changes made on this page before continuing or they will be lost. Do you wish to continue? If so, any unsaved changes will be lost.</message>
-	<message key="plugins.generic.translator.couldNotWriteFile">Could not write the file &quot;{$filename}&quot;. Double-check that file permissions are set correctly.</message>
-	<message key="plugins.generic.translator.errorEditingFile">There was a problem editing the file &quot;{$filename}&quot;. Double-check to ensure that it follows the expected format.</message>
 </locale>
